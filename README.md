@@ -4,8 +4,8 @@ Learn R By Steps
 An applied tutorial 
 -----------
 
-1. Examine steps.csv with a text editor (like notepad, notepad++,sublimetext2,etc).
-2. A quick guide of useful commands: 
+- Examine steps.csv with a text editor (like notepad, notepad++,sublimetext2,etc).
+- A quick guide of useful commands: 
 
 - `getwd()` shows what folder the R program is looking at
 - `setwd("C:\...")` changes the folder that R is looking at
