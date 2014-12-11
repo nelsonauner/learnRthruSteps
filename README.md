@@ -31,5 +31,5 @@ Practice these on the data you loaded
 > - find the date that clare got a step tracker
 > - write a summary of each person's steps pattern
 > - how are step patterns influenced by date?
-
+> - google `ggplot2`, read a tutorial, and make a informative graph
 
