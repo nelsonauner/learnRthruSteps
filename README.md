@@ -16,7 +16,8 @@ Once you have objects in memory, (i.e. try `x <- 1:5` `x = 5`)
 - `str(x)` shows the structure of x 
 - `head(x,n)` shows first `n` entries of `x`.  head(`x`) defaults to `n=6`
 - `length` and `dim` show length of a vector  and dimensions of a 2 (or higher) dimensional object
-
+- `ls()` shows the objects that R has in the working directory. If `ls()` returns `food`, then you can `str(food)` to see what `food` is. 
+- `dir()` shows the contents of the working directory, or folder on your computer that R is looking at
 
 Practice these on the data you loaded
 
@@ -32,4 +33,4 @@ Practice these on the data you loaded
 > - write a summary of each person's steps pattern
 > - how are step patterns influenced by date?
 > - google `ggplot2`, read a tutorial, and make a informative graph
-
+> - `stepsTrain <- head(steps,-7)` creates a training set. How well can you predict `tail(steps,7)`?
