@@ -1,4 +1,4 @@
-+#data analysis often necessitates that we reshape the way data is structured
+#data analysis often necessitates that we reshape the way data is structured
  #this piece of code will reshape our dataset from "wide" to "long" for ease of analysis
  #a wide dataset is presented with each different data variable in a separate column:
    #  chase      nelson	   clare    year
@@ -14,7 +14,7 @@
      # clare     6133.1228   2000
  
  #to reshape, we first need to install the package "reshape" (who would have thought..)
- install.packages("reshape")
+install.packages("reshape")
 library(reshape)
 #Now we tell R to create the new object "steps2", which is functionally a new dataset that is the reshaped from the object steps
  # we tell it to use data from 'steps', and what variables to use to identify 
@@ -27,5 +27,5 @@ library(reshape)
   steps2<-melt(steps, id.vars=c("date", "X", "year"),
                          variable.name = "employee",
                             value.name = "steps")
-+#we have now created a new object which make analysis easier (graphs!) 
+#we have now created a new object which make analysis easier (graphs!) 
  #GO TEAM
